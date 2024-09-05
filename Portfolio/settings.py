@@ -77,11 +77,15 @@ WSGI_APPLICATION = 'Portfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'EEANuYsMgWegyhHEMaKKBUdaCQbAvuKQ',
+        'HOST': 'junction.proxy.rlwy.net',
+        'PORT': '39198'
     }
 }
-
+# PGPASSWORD= psql -h  -U postgres -p  -d railway
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

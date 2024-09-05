@@ -85,8 +85,6 @@ DATABASES = {
         'PORT': '39198'
     }
 }
-# PGPASSWORD= psql -h  -U postgres -p  -d railway
-
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
